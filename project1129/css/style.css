@@ -15,35 +15,37 @@
 /* more button */
 
 .btn {
-    margin: 5px;
     display: block;
     width: 100px;
-    height: 30px;
+    height: 45px;
     border-radius: 5px;
     text-align: center;
-    line-height: 30px;
+    line-height: 45px;
     text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
 }
 
 .btn-more:link {
-    color: #db575c;
+    color: #f56a6a;
 }
 
 .btn-more:visited {
-    color: #cb2930;
+    color: #c7686c;
 }
 
 .btn-more:hover {
-    background-color: #cb2930;
-    color: white;
+    background-color: #fdeff0;
 }
 
 .btn-more:active {
-    color: #1f7ac9;
+    color: #ffffff;
 }
 
 .btn-more {
-    border: 1px solid #db575c;
+    border: 3px solid #f27f83;
+    margin: 20px 0 20px 0;
 }
 
 .btn-primary {
@@ -60,10 +62,31 @@
     width: calc(33.33% - 5px*2);
     float: left;
     padding: 10px;
-    border: 1px solid;
     margin: 5px;
 }
 
 .thumbnail {
+    border-radius: 5px;
     width: 100%;
+}
+
+.section-title {
+    display: block;
+    width: 250px;
+    border-bottom: solid 3px #f56a6a;
+    margin: 0 0 30px 15px;
+    padding: 0 20px 10px 0px;
+}
+
+.image-block-title {
+    font-family: sans-serif;
+    line-height: 4;
+    color: #5d5b5b;
+}
+
+.image-block p {
+    font-size: 10px;
+    color: darkgray;
+    font-family: sans-serif;
+    letter-spacing: 1px;
 }
