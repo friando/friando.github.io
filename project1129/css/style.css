@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+h1 {
+    font-family: "Bungee Inline", serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 60px;
+    color: #8aa4ba;
+    letter-spacing: 20px;
+    word-spacing: 30px;
+}
+
+p {
+    font-family: "Bungee Inline", serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-decoration: line-through;
+}
