@@ -2,6 +2,18 @@
     box-sizing: border-box;
 }
 
-.pokemon {
-    background: url(https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/montage-g1.jpg)
+[id^="box"] {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+[href$=".pdf"] {
+    background-image: url(images/pdf.png);
+    background-size: 50px 50px;
+}
+
+[href$=".docx"] {
+    background-image: url(images/docx.png);
+    background-size: 50px 50px;
 }
