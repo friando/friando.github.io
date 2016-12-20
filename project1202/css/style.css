@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.underline {
+    width: 100px;
+    border-top: 4px solid red;
+    margin-top: 10px;
+}
+
+.title {
+    width: 170px;
+}
+
+.title:hover .underline {
+    width: 100%;
+}
