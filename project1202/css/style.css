@@ -2,13 +2,6 @@
     box-sizing: border-box;
 }
 
-
-body {
-    background-image:url(https://source.unsplash.com/400x200?nature);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: -50px 20px;
-    background-size: 100px 100px;
-    background-repeat: repeat-y;
-    
+.pokemon {
+    background: url(https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/montage-g1.jpg)
 }
